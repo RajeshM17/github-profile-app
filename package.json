@@ -29,6 +29,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "scripts": {
-    "start": "npm install && graphql get-schema && webpack-dev-server"
+    "start": "npm install && graphql get-schema && webpack-dev-server",
+    "build":"npm run build"
   }
 }
